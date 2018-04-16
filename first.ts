@@ -29,6 +29,8 @@ let dog:SmallDog = {
     race: 'corgi'
 }
 
+console.log(dog);
+
 
 /*
  * On peut typer les paramètres d'entrée d'une fonction de la même

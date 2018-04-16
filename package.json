@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "typescript": "^2.8.1"
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
   },
   "scripts": {
-    "compile":"tsc"
+    "build": "webpack --watch",
+    "compile": "tsc"
   },
   "repository": {
     "type": "git",
